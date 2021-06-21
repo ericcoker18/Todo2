@@ -32,8 +32,8 @@ export class AppComponent implements OnInit{
    const modal = this.modalService.open(ModalComponent)
    modal.componentInstance.modalInstance = modal
    let result = await modal.result
-   if(result === "yes") {
-    this.todoService.deleteTodo(todo)  
+   if(result === 'yes') {
+    this.todoService.deleteTodo(todo);
    }
   }
 }

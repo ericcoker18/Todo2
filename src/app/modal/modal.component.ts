@@ -14,12 +14,12 @@ export class ModalComponent implements OnInit {
   }
 
   Close(): void {
-    this.modalInstance.close("No")
+    this.modalInstance.close('no')
     
   }
   
   Yes(): void {
-    this.modalInstance.close("Yes")
+    this.modalInstance.close('yes')
   }
 
 }
